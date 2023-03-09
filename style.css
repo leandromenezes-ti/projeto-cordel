@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Poppins:wght@100;300;500&family=Roboto:wght@100&display=swap');
+
+:root {
+    --fonttitulo: 'Poppins', sans-serif; 
+    --fonttexto: 'Dancing Script', cursive; 
+}
+
+body{
+    margin: 0;
+}
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+    font-family: var(--fonttitulo);
+    font-size: 45px;
+    font-weight: 600;    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonttitulo);
+}
+
+main {
+    margin: auto;
+}
+
+div {
+    width: 45vh;
+    height: 45vh;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 0;
+    padding: 10px;
+}
+
+section {
+    margin: 30px;
+    font-family: var(--fonttexto);
+    font-size: 4.5vh;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.521);
+    padding: 20px;
+}
+
+section#img01 {
+    background: white url(imagens/background001.jpg) right center fixed;
+    background-size: cover;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.288);
+    color: white;
+    font-family: var(--fonttexto);
+    font-size: 4.5vh;
+    padding: 20px;
+}
+section#img02 {
+    background: white url(imagens/background002.jpg) right center fixed;
+    background-size: cover;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
+    font-family:var(--fonttexto) ;
+    font-size: 4.5vh;
+    color: white;
+    font-weight: 500px;
+    text-shadow: 1px 1px black;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: var(--fonttitulo);
+}
